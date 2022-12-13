@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Charlotte Roe</title>
+    <script src="index.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+  <body>
+    <header-component></header-component>
+    <h1>Contact</h1>
+    <section id="contact-form">
+      <form name="contact" method="POST" data-netlify="true">
+        <section>
+          <div style="float: left; margin-right: 20px">
+            <label for="name">Name</label>
+            <input id="name" type="text" value="" name="name" />
+          </div>
+
+          <div style="float: left">
+            <label for="email">Email</label>
+            <input id="email" type="text" value="" name="email" />
+          </div>
+
+          <br style="clear: both" />
+        </section>
+
+        <section>
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" value="" name="subject" />
+          <label for="message">Message</label>
+          <input id="message" type="text" value="" name="message" />
+        </section>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <footer-component></footer-component>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+/* roboto-mono-regular - latin */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/roboto-mono-v22-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./assets/roboto-mono-v22-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./assets/roboto-mono-v22-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./assets/roboto-mono-v22-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("./assets/roboto-mono-v22-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./assets/roboto-mono-v22-latin-regular.svg#RobotoMono") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Roboto Mono";
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0000ff;
+}
+
+#header {
+  background-color: #f6ed74;
+  margin: 0;
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#header #site-id {
+  display: flex;
+  flex-direction: row;
+}
+
+#header #site-id h1 {
+  font-size: 25px;
+}
+
+nav {
+  font-size: 20px;
+}
+
+#hamburger-menu {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Breakpoints */
+
+@media only screen and (max-width: 600px) {
+  #header #site-id h1 {
+    font-size: 20px;
+  }
+
+  nav {
+    font-size: 20px;
+  }
+}

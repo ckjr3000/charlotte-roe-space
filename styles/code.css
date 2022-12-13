@@ -1,0 +1,33 @@
+h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+p,
+li {
+  font-size: 15px;
+  margin-left: 55px;
+  max-width: 80vw;
+}
+
+/* Break Points */
+
+@media only screen and (max-width: 600px) {
+  h2,
+  h3,
+  p,
+  li {
+    margin-left: 10vw;
+  }
+}
