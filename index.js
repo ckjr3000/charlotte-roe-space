@@ -8,11 +8,11 @@ class Header extends HTMLElement {
       <h1>Charlotte Roe | Artist / Creative Technologist</h1>
     </section>
     <nav>
-      <a href="./index.html">Home</a>
-      <a href="./art.html">Art</a>
-      <a href="./development.html">Code</a>
-      <a href="./cv.html">CV</a>
-      <a href="./contact.html">Contact</a>
+      <a href="../index.html">Home</a>
+      <a href="../art.html">Art</a>
+      <a href="../development.html">Code</a>
+      <a href="../cv.html">CV</a>
+      <a href="../contact.html">Contact</a>
     </nav>
   </header>`;
   }
