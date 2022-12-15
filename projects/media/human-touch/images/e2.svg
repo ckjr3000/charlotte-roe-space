@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="piece-of-cardboard" serif:id="piece of cardboard" transform="matrix(1.09705,0,0,1.05951,-47.2935,-23.0558)">
+        <g transform="matrix(1,0,0,1.1875,89.1986,-45.3397)">
+            <path d="M149.564,120.557L226.916,119.164L221.341,218.815L220.645,266.202L236.672,363.763L149.564,364.46L140.505,266.202L146.08,216.028L149.564,120.557Z" style="fill:rgb(224,187,151);stroke:rgb(229,202,177);stroke-width:2.05px;"/>
+        </g>
+        <path d="M325.871,383.456L309.436,266.674L310.436,204.674L315.436,98.667" style="fill:none;stroke:rgb(129,108,87);stroke-width:6.71px;"/>
+    </g>
+    <g id="piece-of-cardboard1" serif:id="piece of cardboard" transform="matrix(0.92267,-0.0501311,0.0582605,1.07229,-15.8104,6.98986)">
+        <g transform="matrix(1,0,0,1.1875,89.1986,-45.3397)">
+            <path d="M149.564,120.557L226.916,119.164L221.341,218.815L220.645,266.202L236.672,363.763L149.564,364.46L140.505,266.202L146.08,216.028L149.564,120.557Z" style="fill:rgb(224,187,151);stroke:rgb(229,202,177);stroke-width:2.17px;"/>
+        </g>
+        <path d="M325.871,383.456L309.436,266.674L310.436,204.674L315.436,98.667" style="fill:none;stroke:rgb(129,108,87);stroke-width:7.22px;"/>
+    </g>
+    <g id="piece-of-cardboard2" serif:id="piece of cardboard" transform="matrix(1,0,0,1.06408,-34.417,-14.8293)">
+        <g transform="matrix(1,0,0,1.1875,89.1986,-45.3397)">
+            <path d="M149.564,120.557L226.916,119.164L221.341,218.815L220.645,266.202L236.672,363.763L149.564,364.46L140.505,266.202L146.08,216.028L149.564,120.557Z" style="fill:rgb(224,187,151);stroke:rgb(229,202,177);stroke-width:2.12px;"/>
+        </g>
+        <path d="M325.871,383.456L309.436,266.674L310.436,204.674L315.436,98.667" style="fill:none;stroke:rgb(129,108,87);stroke-width:7.01px;"/>
+    </g>
+    <g id="piece-of-cardboard3" serif:id="piece of cardboard" transform="matrix(0.997307,-0.0733431,0.0831448,1.13059,-65.0133,8.20763)">
+        <g transform="matrix(1,0,0,1.1875,89.1986,-45.3397)">
+            <path d="M149.564,120.557L226.916,119.164L221.341,218.815L220.645,266.202L236.672,363.763L149.564,364.46L140.505,266.202L146.08,216.028L149.564,120.557Z" style="fill:rgb(224,187,151);stroke:rgb(229,202,177);stroke-width:2.04px;"/>
+        </g>
+        <path d="M325.871,383.456L309.436,266.674L310.436,204.674L315.436,98.667" style="fill:none;stroke:rgb(129,108,87);stroke-width:6.77px;"/>
+    </g>
+    <path d="M185.353,261.249L254.355,261.249C257.294,261.249 260.218,260.823 263.035,259.983C272.896,257.042 296.508,250 296.508,250L301.189,281.507C301.189,281.507 278.727,289.63 266.5,294.052C261.402,295.895 256.007,296.778 250.588,296.655C231.399,296.221 185.186,295.174 185.186,295.174L185.353,261.249Z" style="fill:rgb(237,221,71);"/>
+</svg>

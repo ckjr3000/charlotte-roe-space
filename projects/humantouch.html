@@ -7,17 +7,512 @@
     <title>Human Touch (2020) - Charlotte Roe</title>
     <script src="../index.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="../styles.css" />
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 5%;
+      }
+
+      .grid_item {
+        padding: 5px;
+      }
+
+      @media (min-width: 800px) {
+        .grid {
+          display: grid;
+          grid-template-columns: 20% 20% 20% 20% 20%;
+        }
+      }
+    </style>
   </head>
-  <body>
-    <div id="page-container">
+  <body style="background-color: black">
+    <header-component></header-component>
+    <div id="page-container" style="color: white">
       <div id="content-wrap">
-        <header-component></header-component>
         <section class="project-page-content">
           <h1>Human Touch (2020)</h1>
+          <!-- <p>explanation</p> -->
+          <div style="text-align: center">
+            <p>
+              The objects collected here are a mixture of sculptures and found
+              objects but every one is human-made. Each sound is created by
+              direct manipulation by the human hand. I present this digital
+              space for you to do with as you please, but if you're the kind of
+              person who likes a little instruction, how about this? Put on a
+              pair of headphones and experiment with combining sounds and
+              adjusting volumes until you've created your very own sound
+              sculpture, try and focus on the sense of tactility and the
+              emotions you can create within yourself with different
+              combinations.
+            </p>
+            <p>stay as long as you'd like...</p>
+            <p>(headphones recommended)</p>
+            <p>&#8595;&#8595;</p>
+          </div>
+
+          <!-- Play Area -->
+
+          <div class="grid">
+            <!-- A1 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/a1.svg"
+                alt="small ceramic object with organic form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/a1-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- B1 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/b1.svg"
+                alt="medium ceramic object with organic form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/b1-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- C1 -->
+
+            <div class="grid-item">
+              <img
+                src="./media/human-touch/images/c1.svg"
+                alt="large ceramic object with organic form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/c1-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- D1 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/d1.svg"
+                alt="medium ceramic object with geometric form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/d1-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- E1 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/e1.svg"
+                alt="small cardboard object with geometric form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/e1-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- A2 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/a2.svg"
+                alt="medium cardboard object with geometric form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/a2-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- B2 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/b2.svg"
+                alt="large cardboard object with geometric form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/b2-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- C2 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/c2.svg"
+                alt="small foam object with geometric form"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/c2-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- D2 -->
+
+            <div class="grid_item">
+              <img src="./media/human-touch/images/d2.svg" alt="Blue Tac" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/d2-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- E2 -->
+
+            <div class="grid_item">
+              <img
+                src="./media/human-touch/images/e2.svg"
+                alt="card strips taped together"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/e2-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- A3 -->
+
+            <div id="a3" class="grid_item">
+              <img
+                src="./media/human-touch/images/a3.svg"
+                alt="electrical tape"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source
+                  src="./media/human-touch/sounds/a3-t.mp3"
+                  type="audio/wav"
+                /></audio
+              ><br />
+            </div>
+
+            <!-- B3 -->
+
+            <div id="b3" class="grid_item">
+              <img
+                src="./media/human-touch/images/b3.svg"
+                alt="pages flipping"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/b3-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- C3 -->
+
+            <div id="c3" class="grid_item">
+              <img
+                src="./media/human-touch/images/c3.svg"
+                alt="piezo discs dangling from wires"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/c3-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- D3 -->
+
+            <div id="d3" class="grid_item">
+              <img src="./media/human-touch/images/d3.svg" alt="light switch" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/d3-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- E3 -->
+
+            <div id="e3" class="grid_item">
+              <img src="./media/human-touch/images/e3.svg" alt="masking tape" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/e3-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- A4 -->
+
+            <div id="a4" class="grid_item">
+              <img src="./media/human-touch/images/a4.svg" alt="paper" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/a4-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- B4 -->
+
+            <div id="b4" class="grid_item">
+              <img src="./media/human-touch/images/b4.svg" alt="glue sticks" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/b4-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- C4 -->
+
+            <div id="c4" class="grid_item">
+              <img src="./media/human-touch/images/c4.svg" alt="foam" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/c4-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- D4 -->
+
+            <div id="d4" class="grid_item">
+              <img src="./media/human-touch/images/d4.svg" alt="sellotape" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/d4-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- E4 -->
+
+            <div id="e4" class="grid_item">
+              <img
+                src="./media/human-touch/images/e4.svg"
+                alt="inflated plastic packaging"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/e4-t.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- A5 -->
+
+            <div id="a5" class="grid_item">
+              <img
+                src="./media/human-touch/images/a5.svg"
+                alt="ball point pen"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/a5.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- B5 -->
+
+            <div id="b5" class="grid_item">
+              <img src="./media/human-touch/images/b5.svg" alt="cling film" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/b5.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- C5 -->
+
+            <div id="c5" class="grid_item">
+              <img src="./media/human-touch/images/c5.svg" alt="comb" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/c5.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- D5 -->
+
+            <div id="d5" class="grid_item">
+              <img src="./media/human-touch/images/d5.svg" alt="foil" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/d5.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- E5 -->
+
+            <div id="e5" class="grid_item">
+              <img
+                src="./media/human-touch/images/e5.svg"
+                alt="small glass bottles"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/e5.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- A6 -->
+
+            <div id="a6" class="grid_item">
+              <img
+                src="./media/human-touch/images/a6.svg"
+                alt="grease proof paper"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/a6.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- B6 -->
+
+            <div id="b6" class="grid_item">
+              <img src="./media/human-touch/images/b6.svg" alt="inhaler" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/b6.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- C6 -->
+
+            <div id="c6" class="grid_item">
+              <img src="./media/human-touch/images/c6.svg" alt="paint brush" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/c6.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- D6 -->
+
+            <div id="d6" class="grid_item">
+              <img src="./media/human-touch/images/d6.svg" alt="paper clips" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/d6.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- E6 -->
+
+            <div id="e6" class="grid_item">
+              <img
+                src="./media/human-touch/images/e6-t.svg"
+                alt="plastic ruler"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/e6.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- A7 -->
+
+            <div id="a7" class="grid_item">
+              <img src="./media/human-touch/images/a7.svg" alt="pen pot" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/a7.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- B7 -->
+
+            <div id="b7" class="grid_item">
+              <img src="./media/human-touch/images/b7.svg" alt="pencil pot" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/b7.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- C7 -->
+
+            <div id="c7" class="grid_item">
+              <img
+                src="./media/human-touch/images/c7.svg"
+                alt="rubber pipette"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/c7.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- D7 -->
+
+            <div id="d7" class="grid_item">
+              <img
+                src="./media/human-touch/images/d7.svg"
+                alt="small flat plastic rectangles"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/d7.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- E7 -->
+
+            <div id="e7" class="grid_item">
+              <img src="./media/human-touch/images/e7.svg" alt="scalpel" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/e7.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- A8 -->
+
+            <div id="a8" class="grid_item">
+              <img src="./media/human-touch/images/a8.svg" alt="ring binding" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/a8.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- B8 -->
+
+            <div id="b8" class="grid_item">
+              <img
+                src="./media/human-touch/images/b8.svg"
+                alt="ball of string"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/b8.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- C8 -->
+
+            <div id="c8" class="grid_item">
+              <img src="./media/human-touch/images/c8.svg" alt="tweezers" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/c8.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- D8 -->
+
+            <div id="d8" class="grid_item">
+              <img
+                src="./media/human-touch/images/d8.svg"
+                alt="liquid spray bottle"
+              />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/d8.mp3" /></audio
+              ><br />
+            </div>
+
+            <!-- E8 -->
+
+            <div id="e8" class="grid_item">
+              <img src="./media/human-touch/images/e8.svg" alt="bubble wrap" />
+              <audio controls loop preload="metadata" style="width: 100%">
+                <source src="./media/human-touch/sounds/e8.mp3" /></audio
+              ><br />
+            </div>
+          </div>
         </section>
       </div>
       <footer-component></footer-component>
     </div>
-    
   </body>
 </html>
