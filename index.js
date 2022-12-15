@@ -3,7 +3,7 @@ class Header extends HTMLElement {
     super();
   }
   connectedCallback() {
-    this.innerHTML = ` <section id="header">
+    this.innerHTML = ` <header>
     <section id="site-id">
       <h1>Charlotte Roe | Artist / Creative Technologist</h1>
     </section>
@@ -14,7 +14,7 @@ class Header extends HTMLElement {
       <a href="./cv.html">CV</a>
       <a href="./contact.html">Contact</a>
     </nav>
-  </section>`;
+  </header>`;
   }
 }
 
@@ -25,9 +25,9 @@ class Footer extends HTMLElement {
     super();
   }
   connectedCallback() {
-    this.innerHTML = `<section id="footer">
+    this.innerHTML = `<footer id="footer">
     <p>Website hand-coded by me, &copy; 2022</p>
-  </section>`;
+  </footer>`;
   }
 }
 

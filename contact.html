@@ -7,36 +7,39 @@
     <title>Contact - Charlotte Roe</title>
     <script src="index.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles/contact.css" />
   </head>
   <body>
-    <header-component></header-component>
-    <h1>Contact</h1>
-    <section id="contact-form">
-      <form name="contact" method="POST" data-netlify="true">
-        <section>
-          <div style="float: left; margin-right: 20px">
-            <label for="name">Name</label>
-            <input id="name" type="text" value="" name="name" />
-          </div>
-
-          <div style="float: left">
-            <label for="email">Email</label>
-            <input id="email" type="text" value="" name="email" />
-          </div>
-
-          <br style="clear: both" />
+    <div id="page-container">
+      <div id="content-wrap">
+        <header-component></header-component>
+        <h1>Contact</h1>
+        <section id="contact-form">
+          <form name="contact" method="POST" data-netlify="true">
+            <section>
+              <div style="float: left; margin-right: 20px">
+                <label for="name">Name</label>
+                <input id="name" type="text" value="" name="name" />
+              </div>
+    
+              <div style="float: left">
+                <label for="email">Email</label>
+                <input id="email" type="text" value="" name="email" />
+              </div>
+    
+              <br style="clear: both" />
+            </section>
+    
+            <section>
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" value="" name="subject" />
+              <label for="message">Message</label>
+              <input id="message" type="text" value="" name="message" />
+            </section>
+            <button type="submit">Send</button>
+          </form>
         </section>
-
-        <section>
-          <label for="subject">Subject</label>
-          <input id="subject" type="text" value="" name="subject" />
-          <label for="message">Message</label>
-          <input id="message" type="text" value="" name="message" />
-        </section>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-    <footer-component></footer-component>
+      </div>
+      <footer-component></footer-component>
+    </div>
   </body>
 </html>
