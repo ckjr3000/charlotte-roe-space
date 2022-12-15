@@ -25,6 +25,7 @@ body {
   padding: 0;
   position: relative;
   margin-bottom: 100px;
+  background-color: aliceblue;
 }
 
 a {
@@ -32,8 +33,13 @@ a {
   font-size: 20px;
 }
 
+h2, h3, h4, p, a {
+  margin-left: 30px;
+}
+
 h1 {
   font-size: 40px;
+  text-align: center;
 }
 
 h2 {
@@ -77,10 +83,12 @@ header {
 header #site-id {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 nav a {
   font-size: 25px;
+  margin: 0;
 }
 
 /* Footer */
@@ -96,77 +104,50 @@ nav a {
 
 /* Index */
 
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px 20px 10px;
+}
+
+.row-one,
+.row-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  margin: 10px 10vw 10px 10vw;
+}
+
+#art,
+#code,
+#other,
+#links {
+  max-width: 40%;
+  margin: 20px;
+}
+
 /* Art */
 
-/* Code */
-
-/* CV */
-
-/* Contact */
-
-/* Breakpoints */
-
-/*
-header {
-  background-color: #f6ed74;
-  margin: 0;
-  padding: 20px;
-  overflow: auto;
+#bio-content {
   display: flex;
   flex-direction: row;
+  margin: 30px 5px 30px 5px;
   align-items: center;
-  justify-content: space-evenly;
 }
 
-header #site-id {
-  display: flex;
-  flex-direction: row;
+#bio-text {
+  padding: 10px;
+  background-color: aqua;
 }
 
-header #site-id h1 {
-  font-size: 25px;
+#bio-pic img {
+  padding: 20px;
+  max-width: 20vw;
 }
 
-nav {
-  font-size: 20px;
-}
-
-#hamburger-menu {
-  display: none;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-}
-
-h1 {
-  font-size: 35px;
-  text-align: center;
-  margin-top: 25px;
-}
-
-h2 {
-  font-size: 25px;
-  margin-left: 50px;
-}
-
-h3 {
-  font-size: 20px;
-  margin-left: 50px;
-}
-
-p {
-  font-size: 15px;
-  margin-left: 55px;
-  max-width: 80vw;
-}
-
-img {
-  width: 75vw;
-  height: 75vh;
-  object-fit: contain;
-}
-
-.rolling-projects {
+/* .rolling-projects {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -175,7 +156,7 @@ img {
 
 .rolling-projects a {
   font-size: 25px;
-}
+} */
 
 .project {
   display: flex;
@@ -185,7 +166,6 @@ img {
   margin: 15px 100px 15px 100px;
   padding: 15px 0px 15px 0px;
   background-color: #e4d5ed;
-  border-radius: 25px;
 }
 
 .project h3 {
@@ -196,6 +176,12 @@ img {
   text-align: right;
   font-size: 20px;
 }
+
+/* Code */
+
+/* CV */
+
+/* Contact */
 
 #contact-form {
   display: flex;
@@ -222,120 +208,5 @@ button {
   background-color: #e4d5ed;
 }
 
-
-footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto; 
-  padding: 10px; 
-  text-align: center;
-}
-
-#intro {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 10px 20px 10px;
-}
-
-.row-one,
-.row-two {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: top;
-  margin: 10px 10vw 10px 10vw;
-}
-
-#art,
-#code,
-#other,
-#links {
-  max-width: 40%;
-  margin: 20px;
-}
-
-
-
-/* Breakpoints 
-
-@media only screen and (max-width: 600px) {
-  header #site-id h1 {
-    font-size: 20px;
-  }
-
-  nav {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  h1,
-  h2,
-  h3,
-  p {
-    margin-left: 10vw;
-  }
-
-  .rolling-projects {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .rolling-projects a {
-    font-size: 20px;
-  }
-
-  .project {
-    margin: 10px 10px 10px 10px;
-    padding: 5px 5px 5px 5px;
-    background-color: #e4d5ed;
-    border-radius: 25px;
-  }
-
-  .project h3 {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-  }
-
-  img {
-    width: 80vw;
-    height: auto;
-    object-fit: contain;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  #contact-form {
-    padding: 5vw;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #intro {
-    padding: 0 20px 0 20px;
-  }
-
-  .row-one,
-  .row-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  #art,
-  #code,
-  #other,
-  #links {
-    max-width: 80%;
-  }
-}
-
-*/
+/* Breakpoints */
 
