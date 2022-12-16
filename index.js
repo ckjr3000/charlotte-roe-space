@@ -32,5 +32,3 @@ class Footer extends HTMLElement {
 }
 
 customElements.define("footer-component", Footer);
-
-console.log(window.innerWidth);

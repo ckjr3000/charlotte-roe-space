@@ -32,6 +32,244 @@
             re-rendered in ink on paper.
           </p>
           <p>A collaboration between artist and computer.</p>
+          <div id="noloop-code">
+            <p>
+              The animations these paintings were observed from were created
+              with the p5.js javascript library.
+            </p>
+            <a href="https://editor.p5js.org/"
+              >Try them out with the p5.js browser editor ↗</a
+            >
+            <!-- ELLIPSE CODE -->
+            <figure>
+              <figcaption>Ellipse</figcaption>
+              <pre>
+    <code>
+let PALETTE = [];
+
+function setup() {
+  createCanvas(random(300, 700), random(300, 700));
+  angleMode(DEGREES);
+  rectMode(CENTER);
+  frameRate(15);
+  PALETTE = [
+    color(22, 12, 40), 
+    color(239, 203, 104), 
+    color(225, 239, 230), 
+    color(174, 183, 179) 
+  ]
+}
+
+function draw() {
+  let shapeWidth = random(width / 10, width);
+  let shapeHeight = random(height / 10, height);
+
+  background(getRandomFromPalette());
+  noStroke();
+  fill(getRandomFromPalette());
+  ellipse(width / 2, height /2, shapeWidth, shapeHeight);
+}
+
+function getRandomFromPalette() {
+  const rando = floor(random(0, PALETTE.length));
+  return PALETTE[rando];
+};
+    </code>
+  </pre>
+            </figure>
+
+            <!-- RECT CODE -->
+            <figure>
+              <figcaption>Rect</figcaption>
+              <pre>
+    <code>
+let PALETTE = [];
+
+function setup() {
+  createCanvas(random(300, 700), random(300, 700));
+  angleMode(DEGREES);
+  rectMode(CENTER);
+  frameRate(20);
+  PALETTE = [
+    color(30, 21, 42), 
+    color(78, 103, 102), 
+    color(90, 177, 187), 
+    color(165, 200, 130),
+    color(247, 221, 114)
+  ]
+}
+
+function draw() {
+  let shapeWidth = random(width / 10, width);
+  let shapeHeight = random(height / 10, height);
+
+  background(getRandomFromPalette());
+  noStroke();
+  fill(getRandomFromPalette());
+  rect(width / 2, height / 2, shapeWidth, shapeHeight);
+  noStroke();
+  fill(getRandomFromPalette());
+  rect(width / 4, height / 4, shapeWidth, shapeHeight);
+  noStroke();
+  fill(getRandomFromPalette());
+  rect(width / 8, height / 8, shapeWidth, shapeHeight);
+}
+
+function getRandomFromPalette() {
+  const rando = floor(random(0, PALETTE.length));
+  return PALETTE[rando];
+};
+    </code>
+  </pre>
+            </figure>
+
+            <!-- LINE CODE -->
+            <figure>
+              <figcaption>Line</figcaption>
+              <pre>
+    <code>
+let PALETTE = [];
+
+function setup() {
+  createCanvas(500, 500)
+  angleMode(DEGREES)
+  rectMode(CENTER)
+  noLoop();
+  PALETTE = [
+    color(30, 21, 42), 
+    color(247, 152, 36), 
+    color(90, 177, 187), 
+    color(165, 200, 130),
+    color(223, 146, 142)
+  ]
+}
+
+function draw() {
+  let randX1 = random(0,500)
+  let randY1 = random(0,500)
+  let randX2 = random(0,500)
+  let randY2 = random(0,500)
+
+  stroke(getRandomFromPalette())
+  strokeWeight(floor(random(1,25)))
+  strokeCap(PROJECT)
+  line(randX1, randY1, randX2, randX2)
+}
+
+function getRandomFromPalette() {
+  const rando = floor(random(0, PALETTE.length));
+  return PALETTE[rando];
+};
+
+function mousePressed() {
+  for(let i = 0; i < 26; i++) {
+      redraw()
+  }
+}
+
+    </code>
+  </pre>
+            </figure>
+
+            <!-- BEZIER CODE -->
+            <figure>
+              <figcaption>Bezier</figcaption>
+              <pre>
+    <code>
+let PALETTE = [];
+
+function setup() {
+  createCanvas(500, 500);
+  rectMode(CENTER)
+  noLoop();
+  frameRate(50);
+  PALETTE = [
+    color(22, 12, 40), 
+    color(239, 203, 104), 
+    color(225, 239, 230), 
+    color(174, 183, 179) 
+  ]
+}
+
+function draw() {
+  let randX1 = random(0,500)
+  let randY1 = random(0,500)
+  let randX2 = random(0,500)
+  let randY2 = random(0,500)
+
+  noFill()
+  stroke(getRandomFromPalette())
+  strokeWeight(floor(random(1,25)))
+  strokeCap(PROJECT)
+  bezier(random(
+    0,400), 
+    random(0,400), 
+    random(0,400), 
+    random(0,400),   
+    random(0,400), 
+    random(0,400), 
+    random(0,400), 
+    random(0,400), 
+    random(0,400), 
+    random(0,400)
+    );
+}
+
+function getRandomFromPalette() {
+  const rando = floor(random(0, PALETTE.length));
+  return PALETTE[rando];
+};
+
+function mousePressed() {
+  for(let i = 0; i < 26; i++) {
+      redraw()
+  }
+}
+    </code>
+  </pre>
+            </figure>
+
+            <!-- TRIANGLE CODE -->
+            <figure>
+              <figcaption>Triangle</figcaption>
+              <pre>
+    <code>
+let PALETTE = [];
+
+function setup() {
+  createCanvas(random(300, 700), random(300, 700));
+  angleMode(DEGREES);
+  frameRate(15);
+  PALETTE = [
+    color(22, 12, 40), 
+    color(239, 203, 104), 
+    color(225, 239, 230), 
+    color(174, 183, 179) 
+  ]
+}
+
+function draw() {
+  let randX1 = random(0, width)
+  let randY1 = random(0, width)
+  let randX2 = random(0, width)
+  let randY2 = random(0, width)
+  let randX3 = random(0, width)
+  let randY3 = random(0, width)
+
+  background(getRandomFromPalette());
+  noStroke();
+  fill(getRandomFromPalette());
+  triangle(randX1, randY1, randX2, randY2, randX3, randY3);
+}
+
+function getRandomFromPalette() {
+  const rando = floor(random(0, PALETTE.length));
+  return PALETTE[rando];
+};
+    </code>
+  </pre>
+            </figure>
+          </div>
           <div id="noloop-images">
             <img src="./media/charlotte-roe-bezier-1024x1024.jpg" />
             <img src="./media/charlotte-roe-ellipse-1024x1024.jpg" />
