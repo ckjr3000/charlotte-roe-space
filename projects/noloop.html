@@ -7,11 +7,6 @@
     <title>noLoop(); (2021) - Charlotte Roe</title>
     <script src="../index.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="../styles.css" />
-    <style>
-      body {
-        background-color: gray;
-      }
-    </style>
   </head>
   <body>
     <div class="page-container">
@@ -54,11 +49,12 @@
             </p>
 
             <div class="code-snippets">
-              <div class="snippet">
-                <!-- ELLIPSE CODE -->
-                <figure>
-                  <figcaption>Ellipse</figcaption>
-                  <pre>
+              <div class="snippet-row">
+                <div class="snippet">
+                  <!-- ELLIPSE CODE -->
+                  <figure>
+                    <figcaption>Ellipse</figcaption>
+                    <pre>
     <code>
 let PALETTE = [];
 
@@ -91,13 +87,13 @@ function getRandomFromPalette() {
 };
     </code>
   </pre>
-                </figure>
-              </div>
-              <div class="snippet">
-                <!-- RECT CODE -->
-                <figure>
-                  <figcaption>Rect</figcaption>
-                  <pre>
+                  </figure>
+                </div>
+                <div class="snippet">
+                  <!-- RECT CODE -->
+                  <figure>
+                    <figcaption>Rect</figcaption>
+                    <pre>
     <code>
 let PALETTE = [];
 
@@ -137,13 +133,13 @@ function getRandomFromPalette() {
 };
     </code>
   </pre>
-                </figure>
-              </div>
-              <div class="snippet">
-                <!-- LINE CODE -->
-                <figure>
-                  <figcaption>Line</figcaption>
-                  <pre>
+                  </figure>
+                </div>
+                <div class="snippet">
+                  <!-- LINE CODE -->
+                  <figure>
+                    <figcaption>Line</figcaption>
+                    <pre>
     <code>
 let PALETTE = [];
 
@@ -186,13 +182,15 @@ function mousePressed() {
 
     </code>
   </pre>
-                </figure>
+                  </figure>
+                </div>
               </div>
-              <div class="snippet">
-                <!-- BEZIER CODE -->
-                <figure>
-                  <figcaption>Bezier</figcaption>
-                  <pre>
+              <div class="snippet-row">
+                <div class="snippet">
+                  <!-- BEZIER CODE -->
+                  <figure>
+                    <figcaption>Bezier</figcaption>
+                    <pre>
     <code>
 let PALETTE = [];
 
@@ -245,13 +243,13 @@ function mousePressed() {
 }
     </code>
   </pre>
-                </figure>
-              </div>
-              <div class="snippet">
-                <!-- TRIANGLE CODE -->
-                <figure>
-                  <figcaption>Triangle</figcaption>
-                  <pre>
+                  </figure>
+                </div>
+                <div class="snippet">
+                  <!-- TRIANGLE CODE -->
+                  <figure>
+                    <figcaption>Triangle</figcaption>
+                    <pre>
     <code>
 let PALETTE = [];
 
@@ -287,31 +285,21 @@ function getRandomFromPalette() {
 };
     </code>
   </pre>
-                </figure>
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
-          <div id="noloop-images">
-            <img
-              class="noloop-image"
-              src="./media/charlotte-roe-bezier-1024x1024.jpg"
-            />
-            <img
-              class="noloop-image"
-              src="./media/charlotte-roe-ellipse-1024x1024.jpg"
-            />
-            <img
-              class="noloop-image"
-              src="./media/charlotte-roe-line-1024x1024.jpg"
-            />
-            <img
-              class="noloop-image"
-              src="./media/charlotte-roe-rect-1024x1024.jpg"
-            />
-            <img
-              class="noloop-image"
-              src="./media/charlotte-roe-triangle-1024x1024.jpg"
-            />
+          <div id="image-grid">
+            <div class="grid-row grid-row-3">
+              <img src="./media/charlotte-roe-bezier-1024x1024.jpg" />
+              <img src="./media/charlotte-roe-ellipse-1024x1024.jpg" />
+              <img src="./media/charlotte-roe-line-1024x1024.jpg" />
+            </div>
+            <div class="grid-row grid-row-2">
+              <img src="./media/charlotte-roe-rect-1024x1024.jpg" />
+              <img src="./media/charlotte-roe-triangle-1024x1024.jpg" />
+            </div>
           </div>
           <div class="supporters">
             <div class="supporters-section">
