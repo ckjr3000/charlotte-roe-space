@@ -5,7 +5,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = ` <header>
     <section id="site-id">
-      <h1>Charlotte Roe | Artist / Creative Technologist</h1>
+      <h1>Charlotte Roe | Artist / Developer</h1>
     </section>
     <nav>
       <a href="../index.html">Home</a>

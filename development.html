@@ -4,70 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Development - Charlotte Roe</title>
+    <title>Web - Charlotte Roe</title>
     <script src="index.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="page-container">
-      <div id="content-wrap">
+    <div class="page-container">
+      <div class="content-wrap">
         <header-component></header-component>
-        <h1>Software Development Services</h1>
-        <section id="intro-services">
-          <p>
-            As a freelance developer my focus is on helping provide genuine
-            solutions to other artists and arts organisations.
-          </p>
-          <p>
-            I understand the precarious nature of freelance work in the arts,
-            and how relying on comissions and grants is often tricky. Whether
-            it's a simple portfolio website, or something bespoke like an
-            Arduino program, my aims are the same. To produce a solution that
-            is:
-          </p>
-          <ul>
-            <li>Simple</li>
-            <li>Affordable</li>
-            <li>Accessible</li>
-            <li>Supported (I won't hand over the code and disappear!)</li>
-          </ul>
-        </section>
-        <section id="services">
-          <h2>Services</h2>
-          <ul>
-            <li>Website Design</li>
-            <li>Web Development</li>
-            <li>Web Hosting & Maintenance</li>
-            <li>Code development for Arduino/Raspberry Pi</li>
-            <li>
-              Tech consulting for artists, creatives and arts organistions
-            </li>
-          </ul>
-        </section>
-        <section id="get-in-touch">
-          <p>
-            If you want to make art with code, data or tech but need help from a
-            developer, please <a href="./contact.html">get in touch.</a>
-          </p>
-        </section>
-        <section id="previous-work">
-          <h2>Previous Work</h2>
-          <p>
-            <a href="https://zeroparameters.amespace.uk/" target="_blank"
-              >Zero Parameters Festival Website ↗</a
-            >
-          </p>
-          <p>
-            <a href="https://mumeipublishing.com/" target="_blank"
-              >Mumei Publishing Website ↗</a
-            >
-          </p>
-          <p>
-            <a href="https://amespace.uk/" target="_blank"
-              >ame C.I.C Website ↗</a
-            >
-          </p>
-        </section>
+        <h1>Web Design & Development</h1>
+        <p class="centered-text">
+          I make websites. <a href="./contact.html">Get in touch </a>for a
+          quote.
+        </p>
+        <div id="web-sections">
+          <section class="web-section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>
+                I can write static sites in completely bespoke plain HTML & CSS.
+              </li>
+              <li>
+                Static site generators (hand-coded websites you can easily
+                update using markdown files).
+              </li>
+              <li>
+                Web apps (require more complex functionality than a standard
+                informational website).
+              </li>
+              <li>Wordpress, including:</li>
+              <ul>
+                <li>Set up and design.</li>
+                <li>Custom theme development.</li>
+                <li>Woocommerce integration.</li>
+                <li>Bug fixes and maintenance.</li>
+              </ul>
+              <li>
+                Web accessibility. I can make sure your site is fully compliant
+                with all Web Content Accessibility Guidelines (WCAG).
+              </li>
+            </ul>
+          </section>
+          <section class="web-section">
+            <h2>Services</h2>
+            <ul>
+              <li>Web Design</li>
+              <li>Web Development</li>
+              <li>Domains and hosting</li>
+              <li>Updates and maintenance</li>
+              <li>Accessibility audits</li>
+            </ul>
+          </section>
+        </div>
       </div>
       <footer-component></footer-component>
     </div>

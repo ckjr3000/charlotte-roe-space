@@ -7,43 +7,58 @@
     <title>noLoop(); (2021) - Charlotte Roe</title>
     <script src="../index.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="../styles.css" />
+    <style>
+      body {
+        background-color: gray;
+      }
+    </style>
   </head>
   <body>
-    <div id="page-container">
-      <div id="content-wrap">
+    <div class="page-container">
+      <div class="content-wrap">
         <header-component></header-component>
         <section class="project-page-content">
           <h1>noLoop(); (2021)</h1>
-          <img src="./media/charlotte-roe-artist-noLoop-1024x632.jpg" />
-          <p>
-            An exercise in bringing together coding and physical drawing. Looped
-            animations created with JavaScript, each frame is an automatic page
-            refresh, each refresh re-renders the images with different shape,
-            size and colour values. 
-          </p>
-          <p>
-            Some pieces are created from observation of between states, visuals
-            that don’t actually exist in the program and are just made in
-            interaction with the human eye. ‘Life drawing’ from the monitor,
-            trying to capture those between states as a static image.
-          </p>
-          <p>
-            Others are careful traces of randomly generated clusters of lines,
-            re-rendered in ink on paper.
-          </p>
-          <p>A collaboration between artist and computer.</p>
-          <div id="noloop-code">
+          <img
+            src="./media/charlotte-roe-artist-noLoop-1024x632.jpg"
+            id="noloop-main"
+          />
+          <div class="project-description">
             <p>
+              An exercise in bringing together coding and physical drawing.
+              Looped animations created with JavaScript, each frame is an
+              automatic page refresh, each refresh re-renders the images with
+              different shape, size and colour values. 
+            </p>
+            <p>
+              Some pieces are created from observation of between states,
+              visuals that don’t actually exist in the program and are just made
+              in interaction with the human eye. ‘Life drawing’ from the
+              monitor, trying to capture those between states as a static image.
+            </p>
+            <p>
+              Others are careful traces of randomly generated clusters of lines,
+              re-rendered in ink on paper.
+            </p>
+            <p>A collaboration between artist and computer.</p>
+          </div>
+          <div id="noloop-code">
+            <p class="centered-text">
               The animations these paintings were observed from were created
               with the p5.js javascript library.
             </p>
-            <a href="https://editor.p5js.org/"
-              >Try them out with the p5.js browser editor ↗</a
-            >
-            <!-- ELLIPSE CODE -->
-            <figure>
-              <figcaption>Ellipse</figcaption>
-              <pre>
+            <p class="centered-text">
+              <a href="https://editor.p5js.org/"
+                >Try them out with the p5.js browser editor ↗</a
+              >
+            </p>
+
+            <div class="code-snippets">
+              <div class="snippet">
+                <!-- ELLIPSE CODE -->
+                <figure>
+                  <figcaption>Ellipse</figcaption>
+                  <pre>
     <code>
 let PALETTE = [];
 
@@ -76,12 +91,13 @@ function getRandomFromPalette() {
 };
     </code>
   </pre>
-            </figure>
-
-            <!-- RECT CODE -->
-            <figure>
-              <figcaption>Rect</figcaption>
-              <pre>
+                </figure>
+              </div>
+              <div class="snippet">
+                <!-- RECT CODE -->
+                <figure>
+                  <figcaption>Rect</figcaption>
+                  <pre>
     <code>
 let PALETTE = [];
 
@@ -121,12 +137,13 @@ function getRandomFromPalette() {
 };
     </code>
   </pre>
-            </figure>
-
-            <!-- LINE CODE -->
-            <figure>
-              <figcaption>Line</figcaption>
-              <pre>
+                </figure>
+              </div>
+              <div class="snippet">
+                <!-- LINE CODE -->
+                <figure>
+                  <figcaption>Line</figcaption>
+                  <pre>
     <code>
 let PALETTE = [];
 
@@ -169,12 +186,13 @@ function mousePressed() {
 
     </code>
   </pre>
-            </figure>
-
-            <!-- BEZIER CODE -->
-            <figure>
-              <figcaption>Bezier</figcaption>
-              <pre>
+                </figure>
+              </div>
+              <div class="snippet">
+                <!-- BEZIER CODE -->
+                <figure>
+                  <figcaption>Bezier</figcaption>
+                  <pre>
     <code>
 let PALETTE = [];
 
@@ -227,12 +245,13 @@ function mousePressed() {
 }
     </code>
   </pre>
-            </figure>
-
-            <!-- TRIANGLE CODE -->
-            <figure>
-              <figcaption>Triangle</figcaption>
-              <pre>
+                </figure>
+              </div>
+              <div class="snippet">
+                <!-- TRIANGLE CODE -->
+                <figure>
+                  <figcaption>Triangle</figcaption>
+                  <pre>
     <code>
 let PALETTE = [];
 
@@ -268,21 +287,42 @@ function getRandomFromPalette() {
 };
     </code>
   </pre>
-            </figure>
+                </figure>
+              </div>
+            </div>
           </div>
           <div id="noloop-images">
-            <img src="./media/charlotte-roe-bezier-1024x1024.jpg" />
-            <img src="./media/charlotte-roe-ellipse-1024x1024.jpg" />
-            <img src="./media/charlotte-roe-line-1024x1024.jpg" />
-            <img src="./media/charlotte-roe-rect-1024x1024.jpg" />
-            <img src="./media/charlotte-roe-triangle-1024x1024.jpg" />
+            <img
+              class="noloop-image"
+              src="./media/charlotte-roe-bezier-1024x1024.jpg"
+            />
+            <img
+              class="noloop-image"
+              src="./media/charlotte-roe-ellipse-1024x1024.jpg"
+            />
+            <img
+              class="noloop-image"
+              src="./media/charlotte-roe-line-1024x1024.jpg"
+            />
+            <img
+              class="noloop-image"
+              src="./media/charlotte-roe-rect-1024x1024.jpg"
+            />
+            <img
+              class="noloop-image"
+              src="./media/charlotte-roe-triangle-1024x1024.jpg"
+            />
           </div>
-          <div id="supporters">
-            <p>Commissioned by ame C.I.C for roam festival 2021.</p>
-            <a href="https://amespace.uk/" target="_blank"
-              >Visit the ame website &#129149;</a
-            >
-            <img src="./media/ame_white_transparent.png" />
+          <div class="supporters">
+            <div class="supporters-section">
+              <p>Commissioned by ame C.I.C for roam festival 2021.</p>
+              <a href="https://amespace.uk/" target="_blank"
+                >Visit the ame website ↗</a
+              >
+            </div>
+            <div class="supporters-section">
+              <img src="./media/ame_white_transparent.png" />
+            </div>
           </div>
         </section>
         <footer-component></footer-component>
