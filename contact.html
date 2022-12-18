@@ -18,12 +18,12 @@
             <section>
               <div style="float: left; margin-right: 20px">
                 <label for="name">Name</label>
-                <input id="name" type="text" value="" name="name" />
+                <input id="name" type="text" value="" name="name" required />
               </div>
 
               <div style="float: left">
                 <label for="email">Email</label>
-                <input id="email" type="text" value="" name="email" />
+                <input id="email" type="text" value="" name="email" required />
               </div>
 
               <br style="clear: both" />
@@ -33,7 +33,12 @@
               <label for="subject">Subject</label>
               <input id="subject" type="text" value="" name="subject" />
               <label for="message">Message</label>
-              <input id="message" type="textarea" value="" name="message" />
+              <textarea
+                id="message"
+                value=""
+                name="message"
+                required
+              ></textarea>
             </section>
             <button type="submit">Send</button>
           </form>

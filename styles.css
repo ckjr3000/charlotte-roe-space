@@ -248,7 +248,8 @@ nav a {
   justify-content: center;
 }
 
-input {
+input,
+textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
