@@ -24,7 +24,7 @@
 /* Color variables */
 
 :root {
-  --corn: #f6ed74; /* header */
+  --corn: #f5d731; /* header */
   --aliceblue: #f0f8ff; /* background */
   --fire-opal: #ef6351; /* underlines */
   --mid-blue-green: #d1ece6; /* text blocks */
@@ -586,17 +586,6 @@ iframe {
   }
 
   .project-title {
-    text-align: center;
-  }
-
-  /* Code */
-
-  #web-sections {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #web-sections h2 {
     text-align: center;
   }
 
